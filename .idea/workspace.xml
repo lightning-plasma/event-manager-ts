@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcfede6-1336-4197-958c-71cd3fb5273e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/site_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/site_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/site/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-manager-ts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/site_controller_test.rb" afterDir="false" />
+    <list default="true" id="0bcfede6-1336-4197-958c-71cd3fb5273e" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/app/javascript/components/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/application.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,15 @@
     "RunOnceActivity.go.vendoring.notification.had.been.shown": "true",
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TF_FMT": "false",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
-    "ruby.rails.projectView.checked": "true"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.rails.projectView.checked": "true",
+    "ts.external.directory.path": "/Users/abi01161/IdeaProjects/event-manager-ts/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RunManager" selected="Rails.Development: event-manager-ts">
@@ -163,8 +171,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668143751518</updated>
-      <workItem from="1668143752664" duration="166000" />
+      <workItem from="1668143752664" duration="2132000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1668144115513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668144115513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
