@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcfede6-1336-4197-958c-71cd3fb5273e" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/app/javascript/components/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.eslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/application.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/application.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/application.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/components/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +52,15 @@
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/abi01161/IdeaProjects/event-manager-ts/node_modules/prettier",
     "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
     "ts.external.directory.path": "/Users/abi01161/IdeaProjects/event-manager-ts/node_modules/typescript/lib"
   }
 }]]></component>
@@ -171,7 +180,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668143751518</updated>
-      <workItem from="1668143752664" duration="2132000" />
+      <workItem from="1668143752664" duration="2800000" />
+      <workItem from="1668152014781" duration="1855000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1668144115513</created>
@@ -204,5 +214,9 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -13,15 +13,15 @@
 //
 // const images = require.context('./images', true)
 // const imagePath = (name) => images(name, true)
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import HelloMessage from './components/App';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import HelloMessage from "./components/App";
 
-const container = document.getElementById('root');
+const container = document.getElementById("root");
 if (container) {
   const root = createRoot(container);
 
-  document.addEventListener('DOMContentLoaded', () => {
-    root.render(<HelloMessage name="world"/>);
+  document.addEventListener("DOMContentLoaded", () => {
+    root.render(<HelloMessage name="world" />);
   });
 }
