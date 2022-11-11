@@ -1,0 +1,15 @@
+current directory: /Users/abi01161/IdeaProjects/event-manager-ts/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/abi01161/.asdf/installs/ruby/3.0.4/bin/ruby -I /Users/abi01161/.asdf/installs/ruby/3.0.4/lib/ruby/3.0.0 -r ./siteconf20221111-51370-45vcli.rb extconf.rb
+creating Makefile
+
+current directory: /Users/abi01161/IdeaProjects/event-manager-ts/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/abi01161/IdeaProjects/event-manager-ts/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/abi01161/IdeaProjects/event-manager-ts/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= install
+/opt/homebrew/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20221111-51370-2lju5b/bootsnap
