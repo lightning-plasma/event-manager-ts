@@ -17,14 +17,19 @@ module.exports = {
     "airbnb-base",
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "eslint-config-prettier"
   ],
   settings: {
     "import/extensions": [".js", ".jsx", ".ts", ".tsx", ".mjs"],
+  },
+  globals: {
+    window: true
   },
   rules: {
     "import/prefer-default-export": "off",
     "@typescript-eslint/quotes": ["error", "double"],
     "comma-dangle": "off",
+    "operator-linebreak": "off",
     "@typescript-eslint/comma-dangle": ["error", "only-multiline"],
     "import/extensions": [
       "error",

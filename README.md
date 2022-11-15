@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Typescript対応 && ESLint対応
 
-Things you may want to cover:
+- yarn add typescript @types/node @types/react @types/react-dom
+ 
+ESLintは基本的にサバイバルTypescriptに乗っ取る。
 
-* Ruby version
+Shakapacker用の設定
+https://github.com/shakacode/shakapacker#typescript
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+react-refresh-webpack-plugin用の設定
+https://github.com/pmmmwh/react-refresh-webpack-plugin

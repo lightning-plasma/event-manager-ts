@@ -13,15 +13,20 @@
 //
 // const images = require.context('./images', true)
 // const imagePath = (name) => images(name, true)
-import React from "react";
+import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import HelloMessage from "./components/App";
+import { BrowserRouter } from "react-router-dom";
+import App from "./components/App";
 
 const container = document.getElementById("root");
-if (container) {
-  const root = createRoot(container);
+const root = createRoot(container!);
 
-  document.addEventListener("DOMContentLoaded", () => {
-    root.render(<HelloMessage name="world" />);
-  });
-}
+document.addEventListener("DOMContentLoaded", () => {
+  root.render(
+    <StrictMode>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </StrictMode>
+  );
+});

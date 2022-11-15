@@ -1,9 +1,16 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import Editor from "./Editor";
+import "./App.css";
 
-interface Hello {
-  name: string;
-}
+const App = () => (
+  <>
+    <Routes>
+      <Route path="events/*" element={<Editor />} />
+    </Routes>
+    <ToastContainer />
+  </>
+);
 
-const HelloMessage = ({ name }: Hello) => <div>Hello, {name}</div>;
-
-export default HelloMessage;
+export default App;
